@@ -94,3 +94,8 @@ margin: 10px;
   .cart__item, .cart__sum, .cart__empty {
     color: #000;
   }
+
+  .showmore{
+    width: 100px;
+    height: 30px;
+  }
