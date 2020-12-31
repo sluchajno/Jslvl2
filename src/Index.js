@@ -1,9 +1,10 @@
-import GoodItem from './js/Gooditem.js'
-import Cart from './js/Cart.js'
+import GoodItem from './js/GoodItem.js'
 import List from './js/List.js'
-import GoodsList from './js/GoodsList.js'
-import ListLoad from './js/ListLoad.js'
-import info from './js/info.js'
+import Cart from './js/Cart.js'
+import GoodsList from './js/GoodList.js'
+import ListLoad from '/sl_study/Jslvl2/src/js/ListLoad.js'
+// import info from './js/info.js'
+
 
 // class GoodItem {
 //     name = ''
@@ -295,31 +296,31 @@ import info from './js/info.js'
 // }
 
 
-const Good1 = new GoodItem('Apple SE 2020', 28000)
-const Good2 = new GoodItem('Apple SE', 10500)
-const Good3 = new GoodItem('Apple 11 256Gb', 60000)
-const Good4 = new GoodItem('Apple 12 256Gb', 80000)
-const Good5 = new GoodItem('Apple XS 256Gb', 50000)
-const Good6 = new GoodItem('Apple 8 256Gb', 40000)
-const Good7 = new GoodItem('Apple 11 128Gb', 55000)
-const Good8 = new GoodItem('Apple 12 128Gb', 75000)
-const Good9 = new GoodItem('Apple XS 128b', 45000)
-const Good10 = new GoodItem('Apple 8 128Gb', 35000)
+// const Good1 = new GoodItem('Apple SE 2020', 28000)
+// const Good2 = new GoodItem('Apple SE', 10500)
+// const Good3 = new GoodItem('Apple 11 256Gb', 60000)
+// const Good4 = new GoodItem('Apple 12 256Gb', 80000)
+// const Good5 = new GoodItem('Apple XS 256Gb', 50000)
+// const Good6 = new GoodItem('Apple 8 256Gb', 40000)
+// const Good7 = new GoodItem('Apple 11 128Gb', 55000)
+// const Good8 = new GoodItem('Apple 12 128Gb', 75000)
+// const Good9 = new GoodItem('Apple XS 128b', 45000)
+// const Good10 = new GoodItem('Apple 8 128Gb', 35000)
 
-const GoodsListInstance = new GoodsList()
-GoodsListInstance.add(Good1)
-GoodsListInstance.add(Good2)
-GoodsListInstance.add(Good3)
-GoodsListInstance.add(Good4)
-GoodsListInstance.add(Good5)
-GoodsListInstance.add(Good6)
-GoodsListInstance.add(Good7)
-GoodsListInstance.add(Good8)
-GoodsListInstance.add(Good9)
-GoodsListInstance.add(Good10)
-GoodsListInstance.render()
+// const GoodsListInstance = new GoodsList()
+// GoodsListInstance.add(Good1)
+// GoodsListInstance.add(Good2)
+// GoodsListInstance.add(Good3)
+// GoodsListInstance.add(Good4)
+// GoodsListInstance.add(Good5)
+// GoodsListInstance.add(Good6)
+// GoodsListInstance.add(Good7)
+// GoodsListInstance.add(Good8)
+// GoodsListInstance.add(Good9)
+// GoodsListInstance.add(Good10)
+// GoodsListInstance.render()
 
-const CartInstance = new Cart()
+// const CartInstance = new Cart()
 
 
 

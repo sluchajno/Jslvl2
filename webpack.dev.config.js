@@ -3,9 +3,10 @@ const base = require('./webpack.config.js')
 
 module.exports = merge(base, {
     output: {
-        publicPath: '/js'
+        publicPath: './src/js'
     },
     devServer: {
+        publicPath: './src/js',
         contentBase: './public',
         port: 8080,
         host: 'localhost',

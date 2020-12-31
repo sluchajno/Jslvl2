@@ -1,3 +1,4 @@
+import Cart from '/js/Cart.js'
 export default class GoodItem {
     name = ''
     price = 0
